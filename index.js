@@ -1,1 +1,5 @@
-console.log("HEllo World");
+const heading = document.querySelector('.heading');
+
+heading.addEventListener('click', () => {
+  heading.innerHTML = "Welcome to Timi Billions's World";
+});
